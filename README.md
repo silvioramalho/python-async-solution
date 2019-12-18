@@ -44,3 +44,25 @@ password = kjhKJHg4!
 
 
 
+# REDIS - CLI
+
+## Install
+
+> brew install redis
+
+## Access
+
+> redis-cli
+
+> auth Redis2019!
+
+* Subscribe
+
+> SUBSCRIBE CHANNEL
+
+* Publish
+
+> PUBLISH CHANNEL "TEXT"
+
+
+

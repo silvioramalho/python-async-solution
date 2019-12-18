@@ -7,7 +7,8 @@ import redis
 
 URL = 'https://api.github.com/events'
 MAX_THREADS = 100
-redis = redis.Redis('localhost', port=6379, db=0, password='kjhKJHg4!')
+redis = redis.Redis('localhost', port=6379, db=0, password='Redis2019!')
+
 
 async def fetch_async(pid, session):
     start = datetime.now()
